@@ -1,6 +1,6 @@
 {
   "name": "@pariveda/helloworld",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "main": "dist/components/HelloWorld.react.js",
   "description": "Hello World - Component",
   "dependencies": {

@@ -1,11 +1,15 @@
 {
-  "name": "component-hello",
+  "name": "@pariveda/component-hello",
   "version": "1.0.0",
-  "main": "js/components/HelloWorld.react.js",
+  "main": "dist/components/HelloWorld.react.js",
   "description": "Hello World - Component",
   "dependencies": {
     "react": "^0.14.2",
     "react-dom": "^0.14.2"
   },
-  "author": "Pariveda Solutions"
+  "author": "Pariveda Solutions",
+  "scripts": {
+    "jsx": "jsx js dist",
+    "prepublish": "npm run jsx"
+  }
 }

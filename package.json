@@ -1,13 +1,17 @@
 {
   "name": "@pariveda/helloworld",
   "version": "2.0.0",
-  "main": "dist/components/HelloWorld.react.js",
+  "main": "js/components/HelloWorld.react.js",
   "description": "Hello World - Component",
   "dependencies": {
     "react": "^0.14.2",
     "react-dom": "^0.14.2"
   },
   "author": "Pariveda Solutions",
+  "scripts": {
+    "jsx": "jsx dev js",
+    "prepublish": "npm run jsx"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/apkosciak/TestComponent.git"
